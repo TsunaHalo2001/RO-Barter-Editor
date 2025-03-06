@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "RO_Barter_Editor",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "RO_Barter_Editor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RO_Barter_Editor-Debug-12ccc3dbb56a0fbbae67.json",
+					"name" : "RO_Barter_Editor",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug",
+		"source" : "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

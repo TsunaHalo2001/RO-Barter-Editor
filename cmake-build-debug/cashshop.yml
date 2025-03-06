@@ -1,0 +1,13 @@
+Header:
+  Type: BARTER_DB
+  Version: 1
+
+Body:
+  - Name: shop01
+    Items:
+      - Index: 0
+        Item: Elunium_Box
+        RequiredItems:
+          - Index: 0
+            Item: Elunium
+            Amount: 1

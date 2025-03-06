@@ -1,0 +1,9 @@
+# ninja log v6
+5	1668	1741208974227012100	CMakeFiles/RO_Barter_Editor.dir/Category.cpp.o	9fe9a6d597e6545f
+5	1064	1741209603135792800	CMakeFiles/RO_Barter_Editor.dir/Database.cpp.o	9c1afe393c0eacc7
+4	1658	1741208974226441700	CMakeFiles/RO_Barter_Editor.dir/Item.cpp.o	54aa76560f217231
+6	1347	1741128061083843400	CMakeFiles/RO_Barter_Editor.dir/Cost.cpp.o	5908783a23006b07
+1204	1478	1741209769861594000	RO_Barter_Editor	5504f88f9a0abb47
+8	776	1741209751243088100	CMakeFiles/RO_Barter_Editor.dir/main.cpp.o	31cdb01f7145a144
+4	1593	1741216344405420400	build.ninja	d8ca5f7c9d153831
+5	1204	1741209768662295100	CMakeFiles/RO_Barter_Editor.dir/Shop.cpp.o	51c447f97a7cb59
