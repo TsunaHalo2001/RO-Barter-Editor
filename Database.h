@@ -17,7 +17,7 @@ class Database {
         std::vector<ItemDB> item;
 
     public:
-        Database(std::string);
+        explicit Database(std::string);
         ~Database();
 
         std::string getPath();
@@ -29,6 +29,8 @@ class Database {
         void setType(const std::string &);
         void setVersion(const std::string &);
         void setItem(const std::vector<ItemDB> &);
+
+        void dbValues() const;
 };
 
 

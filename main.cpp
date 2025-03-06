@@ -1,5 +1,5 @@
-#include <iostream>
-
+#include "config.h"
+#include "Database.h"
 #include "Shop.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -18,8 +18,15 @@ int main() {
         std::cout << "i = " << i << std::endl;
     }
 
-    Shop db;
+    Shop shop;
+    shop.shopValues();
+
+    const Database db(DBEQUIP);
     db.dbValues();
+    const Database db2(DBUSABLE);
+    db2.dbValues();
+    const Database db3(DBETC);
+    db3.dbValues();
 
     return 0;
 }

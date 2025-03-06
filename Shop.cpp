@@ -5,10 +5,10 @@
 #include "Shop.h"
 
 Shop::Shop() : path(SHOP) {
-    std::ifstream file(path, std::ios::in);
+    std::ifstream file(this->path, std::ios::in);
 
     if (!file.is_open()) {
-        std::ofstream templat(path, std::ios::out);
+        std::ofstream templat(this->path, std::ios::out);
         templat << "Header:" << std::endl;
         templat << "  Type: BARTER_DB" << std::endl;
         templat << "  Version: 1" << std::endl << std::endl;
@@ -23,7 +23,7 @@ Shop::Shop() : path(SHOP) {
         templat << "            Amount: 1" << std::endl;
         templat.close();
 
-        file.open(path, std::ios::in);
+        file.open(this->path, std::ios::in);
     }
 
     int categoryIndex;
@@ -45,19 +45,19 @@ Shop::Shop() : path(SHOP) {
         else if (line == "  Version") token >> this->version;
         else if (line == "  - Name") {
             token >> categoryName;
-            category.emplace_back(line);
-            categoryIndex = category.size() - 1;
+            this->category.emplace_back(line);
+            categoryIndex = this->category.size() - 1;
         }
         else if (line == "      - Index") token >> itemIndex;
         else if (line == "        Item") {
             token >> itemName;
-            category[categoryIndex].addItem(Item(itemIndex, itemName));
+            this->category[categoryIndex].addItem(Item(itemIndex, itemName));
         }
         else if (line == "          - Index") token >> costIndex;
         else if (line == "            Item") token >> costName;
         else if (line == "            Amount") {
             token >> costAmount;
-            category[categoryIndex].getItem()[itemIndex].addCost(Cost(costIndex, costName, costAmount));
+            this->category[categoryIndex].getItem()[itemIndex].addCost(Cost(costIndex, costName, costAmount));
         }
     }
 
@@ -102,14 +102,14 @@ void Shop::addCategory(const Category& pCategory) {
     this->category.emplace_back(pCategory);
 }
 
-void Shop::dbValues() {
-    std::cout << "Path: " << path << std::endl;
-    std::cout << "Type: " << type << std::endl;
-    std::cout << "Version: " << version << std::endl;
+void Shop::shopValues() {
+    std::cout << "Path: " << this->path << std::endl;
+    std::cout << "Type: " << this->type << std::endl;
+    std::cout << "Version: " << this->version << std::endl;
 
-    std::cout << "Categories: " << category.size() << std::endl;
+    std::cout << "Categories: " << this->category.size() << std::endl;
     int inventory = 0;
-    for (auto &cat : category) {
+    for (auto &cat : this->category) {
         inventory += cat.getItem().size();
     }
     std::cout << "Inventory: " << inventory << std::endl;

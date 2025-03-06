@@ -4,34 +4,40 @@
 
 #include "Database.h"
 
-#include <utility>
-
 Database::Database(std::string path) : path(std::move(path)) {
-    std::ifstream file(path);
+    std::ifstream file(this->path, std::ios::in);
 
-    if (!file.is_open()) std::cout << "File not found" << std::endl;
+    if (!file.is_open()) {
+        std::cout << "File not found" << std::endl;
+        return;
+    }
 
-    else {
-        int itemid;
-        std::string itemaname;
-        std::string itemname;
-        std::string itemtype;
-        int itemweight;
+    int itemid;
+    std::string itemaname;
+    std::string itemname;
+    std::string itemtype;
+    int itemweight;
 
-        std::string line;
+    std::string line;
 
-        while (getline(file, line)) {
-            std::stringstream token(line);
+    while (getline(file, line)) {
+        std::stringstream token(line);
 
-            getline(token, itemname, ':');
+        getline(token, line, ':');
 
-            if (line == "  - Id") token >> itemid;
-            else if (line == "    AName") token >> itemaname;
-            else if (line == "    Name") token >> itemname;
-            else if (line == "    Type") token >> itemtype;
-            else if (line == "    Weight") token >> itemweight;
+        if (line == "  Type") token >> this->type;
+        else if (line == "  Version") token >> this->version;
+        else if (line == "  - Id") token >> itemid;
+        else if (line == "    AName") token >> itemaname;
+        else if (line == "    Name") token >> itemname;
+        else if (line == "    Type") token >> itemtype;
+        else if (line == "    Weight") {
+            token >> itemweight;
+            this->item.emplace_back(itemid, itemaname, itemname, itemtype, itemweight);
         }
     }
+
+    file.close();
 }
 
 Database::~Database() = default;
@@ -66,4 +72,12 @@ void Database::setVersion(const std::string &pVersion) {
 
 void Database::setItem(const std::vector<ItemDB> &pItem) {
     this->item = pItem;
+}
+
+void Database::dbValues() const {
+    std::cout << "Path: " << this->path << std::endl;
+    std::cout << "Type: " << this->type << std::endl;
+    std::cout << "Version: " << this->version << std::endl;
+
+    std::cout << "Items: " << this->item.size() << std::endl;
 }

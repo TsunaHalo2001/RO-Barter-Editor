@@ -2,8 +2,8 @@
 // Created by tsuna on 4/03/25.
 //
 
-#ifndef DATABASE_H
-#define DATABASE_H
+#ifndef SHOP_H
+#define SHOP_H
 
 #include "config.h"
 #include "Category.h"
@@ -31,9 +31,9 @@ class Shop {
 
         void addCategory(const Category&);
 
-        void dbValues();
+        void shopValues();
 };
 
 
 
-#endif //DATABASE_H
+#endif //SHOP_H
