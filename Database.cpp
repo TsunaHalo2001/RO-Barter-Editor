@@ -5,6 +5,12 @@
 #include "Database.h"
 
 Database::Database(std::string path) : path(std::move(path)) {
+    loadDB();
+}
+
+Database::~Database() = default;
+
+void Database::loadDB() {
     std::ifstream file(this->path, std::ios::in);
 
     if (!file.is_open()) {
@@ -12,11 +18,11 @@ Database::Database(std::string path) : path(std::move(path)) {
         return;
     }
 
-    int itemid;
-    std::string itemaname;
-    std::string itemname;
-    std::string itemtype;
-    int itemweight;
+    int itemId = INTNULL;
+    std::string itemAName = STRNULL;
+    std::string itemName = STRNULL;
+    std::string itemType = TYPEDEFAULT;
+    int itemWeight = WEIGHTDEFAULT;
 
     std::string line;
 
@@ -27,20 +33,25 @@ Database::Database(std::string path) : path(std::move(path)) {
 
         if (line == "  Type") token >> this->type;
         else if (line == "  Version") token >> this->version;
-        else if (line == "  - Id") token >> itemid;
-        else if (line == "    AName") token >> itemaname;
-        else if (line == "    Name") token >> itemname;
-        else if (line == "    Type") token >> itemtype;
+        else if (line == "  - Id") token >> itemId;
+        else if (line == "    AegisName") token >> itemAName;
+        else if (line == "    Name") token >> itemName;
+        else if (line == "    Type") token >> itemType;
         else if (line == "    Weight") {
-            token >> itemweight;
-            this->item.emplace_back(itemid, itemaname, itemname, itemtype, itemweight);
+            token >> itemWeight;
+            if (itemId != INTNULL && itemAName != STRNULL && itemName != STRNULL && itemType != STRNULL && itemWeight != INTNULL) this->item.emplace_back(itemId, itemAName, itemName, itemType, itemWeight);
+            else std::cout << "Error: Item not properly designated" << std::endl;
+
+            itemId = INTNULL;
+            itemAName = STRNULL;
+            itemName = STRNULL;
+            itemType = TYPEDEFAULT;
+            itemWeight = WEIGHTDEFAULT;
         }
     }
 
     file.close();
 }
-
-Database::~Database() = default;
 
 std::string Database::getPath() {
     return this->path;
@@ -72,6 +83,13 @@ void Database::setVersion(const std::string &pVersion) {
 
 void Database::setItem(const std::vector<ItemDB> &pItem) {
     this->item = pItem;
+}
+
+// ReSharper disable once CppMemberFunctionMayBeConst
+bool Database::isItemOnDB(ItemDB &pItem) {
+    for (auto &i : this->item) if (i.getId() == pItem.getId() && i.getAName() == pItem.getAName() && i.getName() == pItem.getName() && i.getType() == pItem.getType() && i.getWeight() == pItem.getWeight()) return true;
+
+    return false;
 }
 
 void Database::dbValues() const {

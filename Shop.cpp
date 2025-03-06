@@ -5,6 +5,12 @@
 #include "Shop.h"
 
 Shop::Shop() : path(SHOP) {
+    loadShop();
+}
+
+Shop::~Shop() = default;
+
+void Shop::loadShop() {
     std::ifstream file(this->path, std::ios::in);
 
     if (!file.is_open()) {
@@ -64,8 +70,6 @@ Shop::Shop() : path(SHOP) {
     file.close();
 }
 
-Shop::~Shop() = default;
-
 std::string Shop::getPath() {
     return this->path;
 }
@@ -102,6 +106,12 @@ void Shop::addCategory(const Category& pCategory) {
     this->category.emplace_back(pCategory);
 }
 
+bool Shop::isItemOnShop(Item &pItem) {
+    for (auto &cat : this->category) for (auto &item : cat.getItem()) if (item.getItem() == pItem.getItem()) return true;
+
+    return false;
+}
+
 void Shop::shopValues() {
     std::cout << "Path: " << this->path << std::endl;
     std::cout << "Type: " << this->type << std::endl;
@@ -109,8 +119,6 @@ void Shop::shopValues() {
 
     std::cout << "Categories: " << this->category.size() << std::endl;
     int inventory = 0;
-    for (auto &cat : this->category) {
-        inventory += cat.getItem().size();
-    }
+    for (auto &cat : this->category) inventory += cat.getItem().size();
     std::cout << "Inventory: " << inventory << std::endl;
 }

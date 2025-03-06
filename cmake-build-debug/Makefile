@@ -153,6 +153,30 @@ Category.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RO_Barter_Editor.dir/build.make CMakeFiles/RO_Barter_Editor.dir/Category.cpp.s
 .PHONY : Category.cpp.s
 
+Controlador.o: Controlador.cpp.o
+.PHONY : Controlador.o
+
+# target to build an object file
+Controlador.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RO_Barter_Editor.dir/build.make CMakeFiles/RO_Barter_Editor.dir/Controlador.cpp.o
+.PHONY : Controlador.cpp.o
+
+Controlador.i: Controlador.cpp.i
+.PHONY : Controlador.i
+
+# target to preprocess a source file
+Controlador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RO_Barter_Editor.dir/build.make CMakeFiles/RO_Barter_Editor.dir/Controlador.cpp.i
+.PHONY : Controlador.cpp.i
+
+Controlador.s: Controlador.cpp.s
+.PHONY : Controlador.s
+
+# target to generate assembly for a file
+Controlador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RO_Barter_Editor.dir/build.make CMakeFiles/RO_Barter_Editor.dir/Controlador.cpp.s
+.PHONY : Controlador.cpp.s
+
 Cost.o: Cost.cpp.o
 .PHONY : Cost.o
 
@@ -249,6 +273,30 @@ ItemDB.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RO_Barter_Editor.dir/build.make CMakeFiles/RO_Barter_Editor.dir/ItemDB.cpp.s
 .PHONY : ItemDB.cpp.s
 
+Modelo.o: Modelo.cpp.o
+.PHONY : Modelo.o
+
+# target to build an object file
+Modelo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RO_Barter_Editor.dir/build.make CMakeFiles/RO_Barter_Editor.dir/Modelo.cpp.o
+.PHONY : Modelo.cpp.o
+
+Modelo.i: Modelo.cpp.i
+.PHONY : Modelo.i
+
+# target to preprocess a source file
+Modelo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RO_Barter_Editor.dir/build.make CMakeFiles/RO_Barter_Editor.dir/Modelo.cpp.i
+.PHONY : Modelo.cpp.i
+
+Modelo.s: Modelo.cpp.s
+.PHONY : Modelo.s
+
+# target to generate assembly for a file
+Modelo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RO_Barter_Editor.dir/build.make CMakeFiles/RO_Barter_Editor.dir/Modelo.cpp.s
+.PHONY : Modelo.cpp.s
+
 Shop.o: Shop.cpp.o
 .PHONY : Shop.o
 
@@ -272,6 +320,30 @@ Shop.s: Shop.cpp.s
 Shop.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RO_Barter_Editor.dir/build.make CMakeFiles/RO_Barter_Editor.dir/Shop.cpp.s
 .PHONY : Shop.cpp.s
+
+Vista.o: Vista.cpp.o
+.PHONY : Vista.o
+
+# target to build an object file
+Vista.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RO_Barter_Editor.dir/build.make CMakeFiles/RO_Barter_Editor.dir/Vista.cpp.o
+.PHONY : Vista.cpp.o
+
+Vista.i: Vista.cpp.i
+.PHONY : Vista.i
+
+# target to preprocess a source file
+Vista.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RO_Barter_Editor.dir/build.make CMakeFiles/RO_Barter_Editor.dir/Vista.cpp.i
+.PHONY : Vista.cpp.i
+
+Vista.s: Vista.cpp.s
+.PHONY : Vista.s
+
+# target to generate assembly for a file
+Vista.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RO_Barter_Editor.dir/build.make CMakeFiles/RO_Barter_Editor.dir/Vista.cpp.s
+.PHONY : Vista.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -309,6 +381,9 @@ help:
 	@echo "... Category.o"
 	@echo "... Category.i"
 	@echo "... Category.s"
+	@echo "... Controlador.o"
+	@echo "... Controlador.i"
+	@echo "... Controlador.s"
 	@echo "... Cost.o"
 	@echo "... Cost.i"
 	@echo "... Cost.s"
@@ -321,9 +396,15 @@ help:
 	@echo "... ItemDB.o"
 	@echo "... ItemDB.i"
 	@echo "... ItemDB.s"
+	@echo "... Modelo.o"
+	@echo "... Modelo.i"
+	@echo "... Modelo.s"
 	@echo "... Shop.o"
 	@echo "... Shop.i"
 	@echo "... Shop.s"
+	@echo "... Vista.o"
+	@echo "... Vista.i"
+	@echo "... Vista.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -19,6 +19,8 @@ class Shop {
         Shop();
         ~Shop();
 
+        void loadShop();
+
         std::string getPath();
         std::string getType();
         std::string getVersion();
@@ -30,6 +32,8 @@ class Shop {
         void setCategory(const std::vector<Category> &);
 
         void addCategory(const Category&);
+
+        bool isItemOnShop(Item &);
 
         void shopValues();
 };

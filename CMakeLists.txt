@@ -16,4 +16,10 @@ add_executable(RO_Barter_Editor main.cpp
         Database.cpp
         Database.h
         ItemDB.cpp
-        ItemDB.h)
+        ItemDB.h
+        Modelo.cpp
+        Modelo.h
+        Vista.cpp
+        Vista.h
+        Controlador.cpp
+        Controlador.h)

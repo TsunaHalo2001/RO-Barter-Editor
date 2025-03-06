@@ -20,6 +20,8 @@ class Database {
         explicit Database(std::string);
         ~Database();
 
+        void loadDB();
+
         std::string getPath();
         std::string getType();
         std::string getVersion();
@@ -29,6 +31,8 @@ class Database {
         void setType(const std::string &);
         void setVersion(const std::string &);
         void setItem(const std::vector<ItemDB> &);
+
+        bool isItemOnDB(ItemDB &);
 
         void dbValues() const;
 };
