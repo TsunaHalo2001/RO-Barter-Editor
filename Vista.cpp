@@ -12,19 +12,19 @@ Vista::Vista() = default;
 Vista::~Vista() = default;
 
 void Vista::readState(Shop &pShop, const std::vector<Database> &pDatabases) {
-    system(CLEARCONSOLE);
+    CLEARCONSOLE;
 
     pShop.shopValues();
 
     for (auto &db : pDatabases) db.dbValues();
 
     std::cout << "Press any key to continue";
-    std::cin.get();
+    PAUSECONSOLE;
 }
 
 
 void Vista::tMMenu() {
-    system(CLEARCONSOLE);
+    CLEARCONSOLE;
     std::cout << "Welcome to the RO Editor" << std::endl;
     std::cout << "1. Barter Editor" <<std::endl;
 
@@ -32,11 +32,11 @@ void Vista::tMMenu() {
 }
 
 void Vista::tBMenu() {
-    system(CLEARCONSOLE);
+    CLEARCONSOLE;
     std::cout << "Welcome to Barter Editor" << std::endl;
-    std::cout << "1. Add item" <<std::endl;
-    std::cout << "2. Remove item" << std::endl;
-    std::cout << "3. Update item" << std::endl;
+    std::cout << "1. Add" <<std::endl;
+    std::cout << "2. Remove" << std::endl;
+    std::cout << "3. Update" << std::endl;
     std::cout << "3. Show Shop" << std::endl;
     std::cout << "4. Show Database" << std::endl;
 
