@@ -1,8 +1,8 @@
 CMakeFiles/RO_Barter_Editor.dir/main.cpp.o: \
  /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/main.cpp \
  /usr/include/stdc-predef.h \
- /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/Controlador.h \
- /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/config.h \
+ /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/src/MVC/Controlador.h \
+ /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/src/MVC/../../config.h \
  /usr/include/c++/13/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -169,11 +169,12 @@ CMakeFiles/RO_Barter_Editor.dir/main.cpp.o: \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/utility \
  /usr/include/c++/13/bits/stl_relops.h \
- /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/Modelo.h \
- /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/Shop.h \
- /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/Category.h \
- /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/Item.h \
- /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/Cost.h \
- /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/Database.h \
- /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/ItemDB.h \
- /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/Vista.h
+ /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/src/MVC/Modelo.h \
+ /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/src/MVC/../Shop.h \
+ /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/src/MVC/../../config.h \
+ /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/src/MVC/../Category.h \
+ /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/src/MVC/../Item.h \
+ /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/src/MVC/../Cost.h \
+ /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/src/MVC/../Database.h \
+ /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/src/MVC/../ItemDB.h \
+ /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/src/MVC/Vista.h

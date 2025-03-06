@@ -5,7 +5,7 @@
 #ifndef SHOP_H
 #define SHOP_H
 
-#include "config.h"
+#include "../config.h"
 #include "Category.h"
 
 class Shop {

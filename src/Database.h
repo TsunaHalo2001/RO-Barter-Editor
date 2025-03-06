@@ -5,7 +5,7 @@
 #ifndef DATABASE_H
 #define DATABASE_H
 
-#include "config.h"
+#include "../config.h"
 #include "ItemDB.h"
 
 class Database {

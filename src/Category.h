@@ -5,7 +5,7 @@
 #ifndef CATEGORY_H
 #define CATEGORY_H
 
-#include "config.h"
+#include "../config.h"
 #include "Item.h"
 
 class Category {

@@ -5,7 +5,7 @@
 #ifndef CONTROLADOR_H
 #define CONTROLADOR_H
 
-#include "config.h"
+#include "../../config.h"
 #include "Modelo.h"
 #include "Vista.h"
 

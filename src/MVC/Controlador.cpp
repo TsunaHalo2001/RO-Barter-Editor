@@ -15,10 +15,10 @@ void Controlador::tMode() {
             vista.readState(modelo.getShop(), modelo.getDatabase());
             break;
         case 1:
-            vista.tMMenu();
+            vista.tMainMenu();
             break;
         case 2:
-            vista.tBMenu();
+            vista.tBarterMenu();
             break;
         default:
             break;

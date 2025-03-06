@@ -5,7 +5,7 @@
 #ifndef ITEM_H
 #define ITEM_H
 
-#include "config.h"
+#include "../config.h"
 #include "Cost.h"
 
 class Item {

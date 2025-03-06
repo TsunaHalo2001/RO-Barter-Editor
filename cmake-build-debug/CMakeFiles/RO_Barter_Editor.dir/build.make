@@ -83,158 +83,158 @@ CMakeFiles/RO_Barter_Editor.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RO_Barter_Editor.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/main.cpp" -o CMakeFiles/RO_Barter_Editor.dir/main.cpp.s
 
-CMakeFiles/RO_Barter_Editor.dir/Cost.cpp.o: CMakeFiles/RO_Barter_Editor.dir/flags.make
-CMakeFiles/RO_Barter_Editor.dir/Cost.cpp.o: /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/Cost.cpp
-CMakeFiles/RO_Barter_Editor.dir/Cost.cpp.o: CMakeFiles/RO_Barter_Editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RO_Barter_Editor.dir/Cost.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RO_Barter_Editor.dir/Cost.cpp.o -MF CMakeFiles/RO_Barter_Editor.dir/Cost.cpp.o.d -o CMakeFiles/RO_Barter_Editor.dir/Cost.cpp.o -c "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Cost.cpp"
+CMakeFiles/RO_Barter_Editor.dir/src/Cost.cpp.o: CMakeFiles/RO_Barter_Editor.dir/flags.make
+CMakeFiles/RO_Barter_Editor.dir/src/Cost.cpp.o: /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/src/Cost.cpp
+CMakeFiles/RO_Barter_Editor.dir/src/Cost.cpp.o: CMakeFiles/RO_Barter_Editor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RO_Barter_Editor.dir/src/Cost.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RO_Barter_Editor.dir/src/Cost.cpp.o -MF CMakeFiles/RO_Barter_Editor.dir/src/Cost.cpp.o.d -o CMakeFiles/RO_Barter_Editor.dir/src/Cost.cpp.o -c "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/Cost.cpp"
 
-CMakeFiles/RO_Barter_Editor.dir/Cost.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RO_Barter_Editor.dir/Cost.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Cost.cpp" > CMakeFiles/RO_Barter_Editor.dir/Cost.cpp.i
+CMakeFiles/RO_Barter_Editor.dir/src/Cost.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RO_Barter_Editor.dir/src/Cost.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/Cost.cpp" > CMakeFiles/RO_Barter_Editor.dir/src/Cost.cpp.i
 
-CMakeFiles/RO_Barter_Editor.dir/Cost.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RO_Barter_Editor.dir/Cost.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Cost.cpp" -o CMakeFiles/RO_Barter_Editor.dir/Cost.cpp.s
+CMakeFiles/RO_Barter_Editor.dir/src/Cost.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RO_Barter_Editor.dir/src/Cost.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/Cost.cpp" -o CMakeFiles/RO_Barter_Editor.dir/src/Cost.cpp.s
 
-CMakeFiles/RO_Barter_Editor.dir/Item.cpp.o: CMakeFiles/RO_Barter_Editor.dir/flags.make
-CMakeFiles/RO_Barter_Editor.dir/Item.cpp.o: /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/Item.cpp
-CMakeFiles/RO_Barter_Editor.dir/Item.cpp.o: CMakeFiles/RO_Barter_Editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RO_Barter_Editor.dir/Item.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RO_Barter_Editor.dir/Item.cpp.o -MF CMakeFiles/RO_Barter_Editor.dir/Item.cpp.o.d -o CMakeFiles/RO_Barter_Editor.dir/Item.cpp.o -c "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Item.cpp"
+CMakeFiles/RO_Barter_Editor.dir/src/Item.cpp.o: CMakeFiles/RO_Barter_Editor.dir/flags.make
+CMakeFiles/RO_Barter_Editor.dir/src/Item.cpp.o: /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/src/Item.cpp
+CMakeFiles/RO_Barter_Editor.dir/src/Item.cpp.o: CMakeFiles/RO_Barter_Editor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RO_Barter_Editor.dir/src/Item.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RO_Barter_Editor.dir/src/Item.cpp.o -MF CMakeFiles/RO_Barter_Editor.dir/src/Item.cpp.o.d -o CMakeFiles/RO_Barter_Editor.dir/src/Item.cpp.o -c "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/Item.cpp"
 
-CMakeFiles/RO_Barter_Editor.dir/Item.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RO_Barter_Editor.dir/Item.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Item.cpp" > CMakeFiles/RO_Barter_Editor.dir/Item.cpp.i
+CMakeFiles/RO_Barter_Editor.dir/src/Item.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RO_Barter_Editor.dir/src/Item.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/Item.cpp" > CMakeFiles/RO_Barter_Editor.dir/src/Item.cpp.i
 
-CMakeFiles/RO_Barter_Editor.dir/Item.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RO_Barter_Editor.dir/Item.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Item.cpp" -o CMakeFiles/RO_Barter_Editor.dir/Item.cpp.s
+CMakeFiles/RO_Barter_Editor.dir/src/Item.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RO_Barter_Editor.dir/src/Item.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/Item.cpp" -o CMakeFiles/RO_Barter_Editor.dir/src/Item.cpp.s
 
-CMakeFiles/RO_Barter_Editor.dir/Category.cpp.o: CMakeFiles/RO_Barter_Editor.dir/flags.make
-CMakeFiles/RO_Barter_Editor.dir/Category.cpp.o: /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/Category.cpp
-CMakeFiles/RO_Barter_Editor.dir/Category.cpp.o: CMakeFiles/RO_Barter_Editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RO_Barter_Editor.dir/Category.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RO_Barter_Editor.dir/Category.cpp.o -MF CMakeFiles/RO_Barter_Editor.dir/Category.cpp.o.d -o CMakeFiles/RO_Barter_Editor.dir/Category.cpp.o -c "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Category.cpp"
+CMakeFiles/RO_Barter_Editor.dir/src/Category.cpp.o: CMakeFiles/RO_Barter_Editor.dir/flags.make
+CMakeFiles/RO_Barter_Editor.dir/src/Category.cpp.o: /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/src/Category.cpp
+CMakeFiles/RO_Barter_Editor.dir/src/Category.cpp.o: CMakeFiles/RO_Barter_Editor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RO_Barter_Editor.dir/src/Category.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RO_Barter_Editor.dir/src/Category.cpp.o -MF CMakeFiles/RO_Barter_Editor.dir/src/Category.cpp.o.d -o CMakeFiles/RO_Barter_Editor.dir/src/Category.cpp.o -c "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/Category.cpp"
 
-CMakeFiles/RO_Barter_Editor.dir/Category.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RO_Barter_Editor.dir/Category.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Category.cpp" > CMakeFiles/RO_Barter_Editor.dir/Category.cpp.i
+CMakeFiles/RO_Barter_Editor.dir/src/Category.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RO_Barter_Editor.dir/src/Category.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/Category.cpp" > CMakeFiles/RO_Barter_Editor.dir/src/Category.cpp.i
 
-CMakeFiles/RO_Barter_Editor.dir/Category.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RO_Barter_Editor.dir/Category.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Category.cpp" -o CMakeFiles/RO_Barter_Editor.dir/Category.cpp.s
+CMakeFiles/RO_Barter_Editor.dir/src/Category.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RO_Barter_Editor.dir/src/Category.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/Category.cpp" -o CMakeFiles/RO_Barter_Editor.dir/src/Category.cpp.s
 
-CMakeFiles/RO_Barter_Editor.dir/Shop.cpp.o: CMakeFiles/RO_Barter_Editor.dir/flags.make
-CMakeFiles/RO_Barter_Editor.dir/Shop.cpp.o: /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/Shop.cpp
-CMakeFiles/RO_Barter_Editor.dir/Shop.cpp.o: CMakeFiles/RO_Barter_Editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RO_Barter_Editor.dir/Shop.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RO_Barter_Editor.dir/Shop.cpp.o -MF CMakeFiles/RO_Barter_Editor.dir/Shop.cpp.o.d -o CMakeFiles/RO_Barter_Editor.dir/Shop.cpp.o -c "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Shop.cpp"
+CMakeFiles/RO_Barter_Editor.dir/src/Shop.cpp.o: CMakeFiles/RO_Barter_Editor.dir/flags.make
+CMakeFiles/RO_Barter_Editor.dir/src/Shop.cpp.o: /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/src/Shop.cpp
+CMakeFiles/RO_Barter_Editor.dir/src/Shop.cpp.o: CMakeFiles/RO_Barter_Editor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RO_Barter_Editor.dir/src/Shop.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RO_Barter_Editor.dir/src/Shop.cpp.o -MF CMakeFiles/RO_Barter_Editor.dir/src/Shop.cpp.o.d -o CMakeFiles/RO_Barter_Editor.dir/src/Shop.cpp.o -c "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/Shop.cpp"
 
-CMakeFiles/RO_Barter_Editor.dir/Shop.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RO_Barter_Editor.dir/Shop.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Shop.cpp" > CMakeFiles/RO_Barter_Editor.dir/Shop.cpp.i
+CMakeFiles/RO_Barter_Editor.dir/src/Shop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RO_Barter_Editor.dir/src/Shop.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/Shop.cpp" > CMakeFiles/RO_Barter_Editor.dir/src/Shop.cpp.i
 
-CMakeFiles/RO_Barter_Editor.dir/Shop.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RO_Barter_Editor.dir/Shop.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Shop.cpp" -o CMakeFiles/RO_Barter_Editor.dir/Shop.cpp.s
+CMakeFiles/RO_Barter_Editor.dir/src/Shop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RO_Barter_Editor.dir/src/Shop.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/Shop.cpp" -o CMakeFiles/RO_Barter_Editor.dir/src/Shop.cpp.s
 
-CMakeFiles/RO_Barter_Editor.dir/Database.cpp.o: CMakeFiles/RO_Barter_Editor.dir/flags.make
-CMakeFiles/RO_Barter_Editor.dir/Database.cpp.o: /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/Database.cpp
-CMakeFiles/RO_Barter_Editor.dir/Database.cpp.o: CMakeFiles/RO_Barter_Editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RO_Barter_Editor.dir/Database.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RO_Barter_Editor.dir/Database.cpp.o -MF CMakeFiles/RO_Barter_Editor.dir/Database.cpp.o.d -o CMakeFiles/RO_Barter_Editor.dir/Database.cpp.o -c "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Database.cpp"
+CMakeFiles/RO_Barter_Editor.dir/src/Database.cpp.o: CMakeFiles/RO_Barter_Editor.dir/flags.make
+CMakeFiles/RO_Barter_Editor.dir/src/Database.cpp.o: /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/src/Database.cpp
+CMakeFiles/RO_Barter_Editor.dir/src/Database.cpp.o: CMakeFiles/RO_Barter_Editor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RO_Barter_Editor.dir/src/Database.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RO_Barter_Editor.dir/src/Database.cpp.o -MF CMakeFiles/RO_Barter_Editor.dir/src/Database.cpp.o.d -o CMakeFiles/RO_Barter_Editor.dir/src/Database.cpp.o -c "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/Database.cpp"
 
-CMakeFiles/RO_Barter_Editor.dir/Database.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RO_Barter_Editor.dir/Database.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Database.cpp" > CMakeFiles/RO_Barter_Editor.dir/Database.cpp.i
+CMakeFiles/RO_Barter_Editor.dir/src/Database.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RO_Barter_Editor.dir/src/Database.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/Database.cpp" > CMakeFiles/RO_Barter_Editor.dir/src/Database.cpp.i
 
-CMakeFiles/RO_Barter_Editor.dir/Database.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RO_Barter_Editor.dir/Database.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Database.cpp" -o CMakeFiles/RO_Barter_Editor.dir/Database.cpp.s
+CMakeFiles/RO_Barter_Editor.dir/src/Database.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RO_Barter_Editor.dir/src/Database.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/Database.cpp" -o CMakeFiles/RO_Barter_Editor.dir/src/Database.cpp.s
 
-CMakeFiles/RO_Barter_Editor.dir/ItemDB.cpp.o: CMakeFiles/RO_Barter_Editor.dir/flags.make
-CMakeFiles/RO_Barter_Editor.dir/ItemDB.cpp.o: /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/ItemDB.cpp
-CMakeFiles/RO_Barter_Editor.dir/ItemDB.cpp.o: CMakeFiles/RO_Barter_Editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RO_Barter_Editor.dir/ItemDB.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RO_Barter_Editor.dir/ItemDB.cpp.o -MF CMakeFiles/RO_Barter_Editor.dir/ItemDB.cpp.o.d -o CMakeFiles/RO_Barter_Editor.dir/ItemDB.cpp.o -c "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/ItemDB.cpp"
+CMakeFiles/RO_Barter_Editor.dir/src/ItemDB.cpp.o: CMakeFiles/RO_Barter_Editor.dir/flags.make
+CMakeFiles/RO_Barter_Editor.dir/src/ItemDB.cpp.o: /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/src/ItemDB.cpp
+CMakeFiles/RO_Barter_Editor.dir/src/ItemDB.cpp.o: CMakeFiles/RO_Barter_Editor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RO_Barter_Editor.dir/src/ItemDB.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RO_Barter_Editor.dir/src/ItemDB.cpp.o -MF CMakeFiles/RO_Barter_Editor.dir/src/ItemDB.cpp.o.d -o CMakeFiles/RO_Barter_Editor.dir/src/ItemDB.cpp.o -c "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/ItemDB.cpp"
 
-CMakeFiles/RO_Barter_Editor.dir/ItemDB.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RO_Barter_Editor.dir/ItemDB.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/ItemDB.cpp" > CMakeFiles/RO_Barter_Editor.dir/ItemDB.cpp.i
+CMakeFiles/RO_Barter_Editor.dir/src/ItemDB.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RO_Barter_Editor.dir/src/ItemDB.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/ItemDB.cpp" > CMakeFiles/RO_Barter_Editor.dir/src/ItemDB.cpp.i
 
-CMakeFiles/RO_Barter_Editor.dir/ItemDB.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RO_Barter_Editor.dir/ItemDB.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/ItemDB.cpp" -o CMakeFiles/RO_Barter_Editor.dir/ItemDB.cpp.s
+CMakeFiles/RO_Barter_Editor.dir/src/ItemDB.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RO_Barter_Editor.dir/src/ItemDB.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/ItemDB.cpp" -o CMakeFiles/RO_Barter_Editor.dir/src/ItemDB.cpp.s
 
-CMakeFiles/RO_Barter_Editor.dir/Modelo.cpp.o: CMakeFiles/RO_Barter_Editor.dir/flags.make
-CMakeFiles/RO_Barter_Editor.dir/Modelo.cpp.o: /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/Modelo.cpp
-CMakeFiles/RO_Barter_Editor.dir/Modelo.cpp.o: CMakeFiles/RO_Barter_Editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RO_Barter_Editor.dir/Modelo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RO_Barter_Editor.dir/Modelo.cpp.o -MF CMakeFiles/RO_Barter_Editor.dir/Modelo.cpp.o.d -o CMakeFiles/RO_Barter_Editor.dir/Modelo.cpp.o -c "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Modelo.cpp"
+CMakeFiles/RO_Barter_Editor.dir/src/MVC/Modelo.cpp.o: CMakeFiles/RO_Barter_Editor.dir/flags.make
+CMakeFiles/RO_Barter_Editor.dir/src/MVC/Modelo.cpp.o: /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/src/MVC/Modelo.cpp
+CMakeFiles/RO_Barter_Editor.dir/src/MVC/Modelo.cpp.o: CMakeFiles/RO_Barter_Editor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RO_Barter_Editor.dir/src/MVC/Modelo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RO_Barter_Editor.dir/src/MVC/Modelo.cpp.o -MF CMakeFiles/RO_Barter_Editor.dir/src/MVC/Modelo.cpp.o.d -o CMakeFiles/RO_Barter_Editor.dir/src/MVC/Modelo.cpp.o -c "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/MVC/Modelo.cpp"
 
-CMakeFiles/RO_Barter_Editor.dir/Modelo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RO_Barter_Editor.dir/Modelo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Modelo.cpp" > CMakeFiles/RO_Barter_Editor.dir/Modelo.cpp.i
+CMakeFiles/RO_Barter_Editor.dir/src/MVC/Modelo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RO_Barter_Editor.dir/src/MVC/Modelo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/MVC/Modelo.cpp" > CMakeFiles/RO_Barter_Editor.dir/src/MVC/Modelo.cpp.i
 
-CMakeFiles/RO_Barter_Editor.dir/Modelo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RO_Barter_Editor.dir/Modelo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Modelo.cpp" -o CMakeFiles/RO_Barter_Editor.dir/Modelo.cpp.s
+CMakeFiles/RO_Barter_Editor.dir/src/MVC/Modelo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RO_Barter_Editor.dir/src/MVC/Modelo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/MVC/Modelo.cpp" -o CMakeFiles/RO_Barter_Editor.dir/src/MVC/Modelo.cpp.s
 
-CMakeFiles/RO_Barter_Editor.dir/Vista.cpp.o: CMakeFiles/RO_Barter_Editor.dir/flags.make
-CMakeFiles/RO_Barter_Editor.dir/Vista.cpp.o: /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/Vista.cpp
-CMakeFiles/RO_Barter_Editor.dir/Vista.cpp.o: CMakeFiles/RO_Barter_Editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RO_Barter_Editor.dir/Vista.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RO_Barter_Editor.dir/Vista.cpp.o -MF CMakeFiles/RO_Barter_Editor.dir/Vista.cpp.o.d -o CMakeFiles/RO_Barter_Editor.dir/Vista.cpp.o -c "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Vista.cpp"
+CMakeFiles/RO_Barter_Editor.dir/src/MVC/Vista.cpp.o: CMakeFiles/RO_Barter_Editor.dir/flags.make
+CMakeFiles/RO_Barter_Editor.dir/src/MVC/Vista.cpp.o: /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/src/MVC/Vista.cpp
+CMakeFiles/RO_Barter_Editor.dir/src/MVC/Vista.cpp.o: CMakeFiles/RO_Barter_Editor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RO_Barter_Editor.dir/src/MVC/Vista.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RO_Barter_Editor.dir/src/MVC/Vista.cpp.o -MF CMakeFiles/RO_Barter_Editor.dir/src/MVC/Vista.cpp.o.d -o CMakeFiles/RO_Barter_Editor.dir/src/MVC/Vista.cpp.o -c "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/MVC/Vista.cpp"
 
-CMakeFiles/RO_Barter_Editor.dir/Vista.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RO_Barter_Editor.dir/Vista.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Vista.cpp" > CMakeFiles/RO_Barter_Editor.dir/Vista.cpp.i
+CMakeFiles/RO_Barter_Editor.dir/src/MVC/Vista.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RO_Barter_Editor.dir/src/MVC/Vista.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/MVC/Vista.cpp" > CMakeFiles/RO_Barter_Editor.dir/src/MVC/Vista.cpp.i
 
-CMakeFiles/RO_Barter_Editor.dir/Vista.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RO_Barter_Editor.dir/Vista.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Vista.cpp" -o CMakeFiles/RO_Barter_Editor.dir/Vista.cpp.s
+CMakeFiles/RO_Barter_Editor.dir/src/MVC/Vista.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RO_Barter_Editor.dir/src/MVC/Vista.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/MVC/Vista.cpp" -o CMakeFiles/RO_Barter_Editor.dir/src/MVC/Vista.cpp.s
 
-CMakeFiles/RO_Barter_Editor.dir/Controlador.cpp.o: CMakeFiles/RO_Barter_Editor.dir/flags.make
-CMakeFiles/RO_Barter_Editor.dir/Controlador.cpp.o: /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/Controlador.cpp
-CMakeFiles/RO_Barter_Editor.dir/Controlador.cpp.o: CMakeFiles/RO_Barter_Editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/RO_Barter_Editor.dir/Controlador.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RO_Barter_Editor.dir/Controlador.cpp.o -MF CMakeFiles/RO_Barter_Editor.dir/Controlador.cpp.o.d -o CMakeFiles/RO_Barter_Editor.dir/Controlador.cpp.o -c "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Controlador.cpp"
+CMakeFiles/RO_Barter_Editor.dir/src/MVC/Controlador.cpp.o: CMakeFiles/RO_Barter_Editor.dir/flags.make
+CMakeFiles/RO_Barter_Editor.dir/src/MVC/Controlador.cpp.o: /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter\ Editor/RO-Barter-Editor/src/MVC/Controlador.cpp
+CMakeFiles/RO_Barter_Editor.dir/src/MVC/Controlador.cpp.o: CMakeFiles/RO_Barter_Editor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/RO_Barter_Editor.dir/src/MVC/Controlador.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RO_Barter_Editor.dir/src/MVC/Controlador.cpp.o -MF CMakeFiles/RO_Barter_Editor.dir/src/MVC/Controlador.cpp.o.d -o CMakeFiles/RO_Barter_Editor.dir/src/MVC/Controlador.cpp.o -c "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/MVC/Controlador.cpp"
 
-CMakeFiles/RO_Barter_Editor.dir/Controlador.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RO_Barter_Editor.dir/Controlador.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Controlador.cpp" > CMakeFiles/RO_Barter_Editor.dir/Controlador.cpp.i
+CMakeFiles/RO_Barter_Editor.dir/src/MVC/Controlador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RO_Barter_Editor.dir/src/MVC/Controlador.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/MVC/Controlador.cpp" > CMakeFiles/RO_Barter_Editor.dir/src/MVC/Controlador.cpp.i
 
-CMakeFiles/RO_Barter_Editor.dir/Controlador.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RO_Barter_Editor.dir/Controlador.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/Controlador.cpp" -o CMakeFiles/RO_Barter_Editor.dir/Controlador.cpp.s
+CMakeFiles/RO_Barter_Editor.dir/src/MVC/Controlador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RO_Barter_Editor.dir/src/MVC/Controlador.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/src/MVC/Controlador.cpp" -o CMakeFiles/RO_Barter_Editor.dir/src/MVC/Controlador.cpp.s
 
 # Object files for target RO_Barter_Editor
 RO_Barter_Editor_OBJECTS = \
 "CMakeFiles/RO_Barter_Editor.dir/main.cpp.o" \
-"CMakeFiles/RO_Barter_Editor.dir/Cost.cpp.o" \
-"CMakeFiles/RO_Barter_Editor.dir/Item.cpp.o" \
-"CMakeFiles/RO_Barter_Editor.dir/Category.cpp.o" \
-"CMakeFiles/RO_Barter_Editor.dir/Shop.cpp.o" \
-"CMakeFiles/RO_Barter_Editor.dir/Database.cpp.o" \
-"CMakeFiles/RO_Barter_Editor.dir/ItemDB.cpp.o" \
-"CMakeFiles/RO_Barter_Editor.dir/Modelo.cpp.o" \
-"CMakeFiles/RO_Barter_Editor.dir/Vista.cpp.o" \
-"CMakeFiles/RO_Barter_Editor.dir/Controlador.cpp.o"
+"CMakeFiles/RO_Barter_Editor.dir/src/Cost.cpp.o" \
+"CMakeFiles/RO_Barter_Editor.dir/src/Item.cpp.o" \
+"CMakeFiles/RO_Barter_Editor.dir/src/Category.cpp.o" \
+"CMakeFiles/RO_Barter_Editor.dir/src/Shop.cpp.o" \
+"CMakeFiles/RO_Barter_Editor.dir/src/Database.cpp.o" \
+"CMakeFiles/RO_Barter_Editor.dir/src/ItemDB.cpp.o" \
+"CMakeFiles/RO_Barter_Editor.dir/src/MVC/Modelo.cpp.o" \
+"CMakeFiles/RO_Barter_Editor.dir/src/MVC/Vista.cpp.o" \
+"CMakeFiles/RO_Barter_Editor.dir/src/MVC/Controlador.cpp.o"
 
 # External object files for target RO_Barter_Editor
 RO_Barter_Editor_EXTERNAL_OBJECTS =
 
 RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/main.cpp.o
-RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/Cost.cpp.o
-RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/Item.cpp.o
-RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/Category.cpp.o
-RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/Shop.cpp.o
-RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/Database.cpp.o
-RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/ItemDB.cpp.o
-RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/Modelo.cpp.o
-RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/Vista.cpp.o
-RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/Controlador.cpp.o
+RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/src/Cost.cpp.o
+RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/src/Item.cpp.o
+RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/src/Category.cpp.o
+RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/src/Shop.cpp.o
+RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/src/Database.cpp.o
+RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/src/ItemDB.cpp.o
+RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/src/MVC/Modelo.cpp.o
+RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/src/MVC/Vista.cpp.o
+RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/src/MVC/Controlador.cpp.o
 RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/build.make
 RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable RO_Barter_Editor"

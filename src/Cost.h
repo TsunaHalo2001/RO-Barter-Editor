@@ -5,7 +5,7 @@
 #ifndef COST_H
 #define COST_H
 
-#include "config.h"
+#include "../config.h"
 
 class Cost {
     protected:

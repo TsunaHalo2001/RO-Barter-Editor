@@ -5,9 +5,9 @@
 #ifndef VISTA_H
 #define VISTA_H
 
-#include "config.h"
-#include "Shop.h"
-#include "Database.h"
+#include "../../config.h"
+#include "../Shop.h"
+#include "../Database.h"
 
 class Vista {
     public:
@@ -15,8 +15,8 @@ class Vista {
         ~Vista();
 
         void readState(Shop &, const std::vector<Database> &);
-        void tMMenu();
-        void tBMenu();
+        void tMainMenu();
+        void tBarterMenu();
 };
 
 

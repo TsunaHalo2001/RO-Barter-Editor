@@ -5,7 +5,7 @@
 #ifndef ITEMDB_H
 #define ITEMDB_H
 
-#include "config.h"
+#include "../config.h"
 
 class ItemDB {
     protected:

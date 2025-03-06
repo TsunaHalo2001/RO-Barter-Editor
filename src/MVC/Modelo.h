@@ -5,9 +5,9 @@
 #ifndef MODELO_H
 #define MODELO_H
 
-#include "config.h"
-#include "Shop.h"
-#include "Database.h"
+#include "../../config.h"
+#include "../Shop.h"
+#include "../Database.h"
 
 class Modelo {
     protected:
