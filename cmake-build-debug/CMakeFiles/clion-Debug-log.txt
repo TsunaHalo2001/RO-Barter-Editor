@@ -1,4 +1,4 @@
 "/media/tsuna/TsunaDomain/MintApps/Toolbox JetBrains/clion/bin/cmake/linux/x64/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/media/tsuna/TsunaDomain/MintApps/Toolbox JetBrains/clion/bin/ninja/linux/x64/ninja" -G Ninja -S "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor" -B "/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug"
--- Configuring done (0.3s)
+-- Configuring done (0.6s)
 -- Generating done (0.1s)
 -- Build files have been written to: /media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug
