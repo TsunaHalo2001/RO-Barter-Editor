@@ -106,6 +106,12 @@ void Shop::addCategory(const Category& pCategory) {
     this->category.emplace_back(pCategory);
 }
 
+bool Shop::isCategoryOnShop(const std::string& pCategory) {
+    for (auto &cat : this->category) if (cat.getName() == pCategory) return true;
+
+    return false;
+}
+
 bool Shop::isItemOnShop(Item &pItem) {
     for (auto &cat : this->category) for (auto &item : cat.getItem()) if (item.getItem() == pItem.getItem()) return true;
 

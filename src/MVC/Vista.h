@@ -17,6 +17,15 @@ class Vista {
         void readState(Shop &, const std::vector<Database> &);
         void tMainMenu();
         void tBarterMenu();
+        void tAddMenu();
+        void tAddCategory();
+
+        void tWarningAddCategory();
+
+        void tErrorAddCategory();
+
+        void tInput(std::string&);
+        void gotoxy(int, int);
 };
 
 

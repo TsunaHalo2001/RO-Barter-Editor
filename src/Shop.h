@@ -33,6 +33,7 @@ class Shop {
 
         void addCategory(const Category&);
 
+        bool isCategoryOnShop(const std::string&);
         bool isItemOnShop(Item &);
 
         void shopValues();

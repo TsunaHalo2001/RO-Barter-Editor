@@ -15,6 +15,7 @@ class Modelo {
         std::vector<Database> db;
 
         int state;
+        int warningFlag;
 
     public:
         Modelo();
@@ -23,10 +24,16 @@ class Modelo {
         Shop &getShop();
         std::vector<Database> &getDatabase();
         [[nodiscard]] int getState() const;
+        int getWarningFlag() const;
 
         void setShop(const Shop &);
         void setDatabase(const char *);
         void setState(int);
+        void setWarningFlag(int);
+
+        void addCategory(const Category &);
+
+        bool isCategoryOnShop(const std::string&);
 };
 
 

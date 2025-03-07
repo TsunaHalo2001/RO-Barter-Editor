@@ -8,6 +8,10 @@
 #define VERSION "4/03/25"
 
 #ifdef _WIN32
+#define SHOP "D:/Joan0/Documents/Server/rAthena/rathena-tests/npc/custom/barters/cashshop.yml"
+#define DBEQUIP "D:/Joan0/Documents/Server/rAthena/rathena-tests/db/re/item_db_equip.yml"
+#define DBUSABLE "D:/Joan0/Documents/Server/rAthena/rathena-tests/db/re/item_db_usable.yml"
+#define DBETC "D:/Joan0/Documents/Server/rAthena/rathena-tests/db/re/item_db_etc.yml"
 #elif __linux__
 #define SHOP "/media/tsuna/TsunaDomain/Joan0/Documents/Server/rAthena/rathena-tests/npc/custom/barters/cashshop.yml"
 #define DBEQUIP "/media/tsuna/TsunaDomain/Joan0/Documents/Server/rAthena/rathena-tests/db/re/item_db_equip.yml"
@@ -26,9 +30,11 @@
 #ifdef _WIN32
 #define CLEARCONSOLE system("cls")
 #define PAUSECONSOLE system("pause")
+#define PLATFORMGOTOXY COORD coord; coord.X = x; coord.Y = y; SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
 #elif __linux__
 #define CLEARCONSOLE system("clear")
 #define PAUSECONSOLE std::cin.get()
+#define PLATFORMGOTOXY std::printf("\033[%d;%dH", y, x)
 #endif
 
 #include <cstdlib>
