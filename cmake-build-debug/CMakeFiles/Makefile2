@@ -85,12 +85,12 @@ clean: CMakeFiles/RO_Barter_Editor.dir/clean
 CMakeFiles/RO_Barter_Editor.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RO_Barter_Editor.dir/build.make CMakeFiles/RO_Barter_Editor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RO_Barter_Editor.dir/build.make CMakeFiles/RO_Barter_Editor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/media/tsuna/TsunaLinux/Proyects/RO-Barter-Editor/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target RO_Barter_Editor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/media/tsuna/TsunaLinux/Proyects/RO-Barter-Editor/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target RO_Barter_Editor"
 .PHONY : CMakeFiles/RO_Barter_Editor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/RO_Barter_Editor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/tsuna/TsunaLinux/Proyects/RO-Barter-Editor/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/tsuna/TsunaLinux/Proyects/RO-Barter-Editor/cmake-build-debug/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/RO_Barter_Editor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /media/tsuna/TsunaLinux/Proyects/RO-Barter-Editor/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/RO_Barter_Editor.dir/rule
@@ -102,7 +102,7 @@ RO_Barter_Editor: CMakeFiles/RO_Barter_Editor.dir/rule
 # codegen rule for target.
 CMakeFiles/RO_Barter_Editor.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RO_Barter_Editor.dir/build.make CMakeFiles/RO_Barter_Editor.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/media/tsuna/TsunaLinux/Proyects/RO-Barter-Editor/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Finished codegen for target RO_Barter_Editor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/media/tsuna/TsunaLinux/Proyects/RO-Barter-Editor/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Finished codegen for target RO_Barter_Editor"
 .PHONY : CMakeFiles/RO_Barter_Editor.dir/codegen
 
 # clean rule for target.

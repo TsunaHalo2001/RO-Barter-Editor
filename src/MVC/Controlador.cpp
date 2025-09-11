@@ -12,7 +12,7 @@ Controlador::~Controlador() = default;
 void Controlador::tMode() {
     switch (modelo.getState()) {
         case 0:
-            vista.readState(modelo.getShop(), modelo.getDatabase());
+            //vista.readState(modelo.getShop(), modelo.getDatabase());
             break;
         case 1:
             vista.tMainMenu();

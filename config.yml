@@ -1,0 +1,9 @@
+Header:
+  Type: RO_BARTER_CONFIG
+  Version: 1
+
+Body:
+  - Id: 1
+    Name: Etc
+    Description: Miscellaneous items
+    Path: /media/tsuna/TsunaLinux/Server/rAthena/rathena-tests/db/re/item_db_etc.yml

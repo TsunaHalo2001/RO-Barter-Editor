@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/media/tsuna/TsunaLinux/Proyects/RO-Barter-Editor/main.cpp" "CMakeFiles/RO_Barter_Editor.dir/main.cpp.o" "gcc" "CMakeFiles/RO_Barter_Editor.dir/main.cpp.o.d"
   "/media/tsuna/TsunaLinux/Proyects/RO-Barter-Editor/src/Category.cpp" "CMakeFiles/RO_Barter_Editor.dir/src/Category.cpp.o" "gcc" "CMakeFiles/RO_Barter_Editor.dir/src/Category.cpp.o.d"
+  "/media/tsuna/TsunaLinux/Proyects/RO-Barter-Editor/src/Config.cpp" "CMakeFiles/RO_Barter_Editor.dir/src/Config.cpp.o" "gcc" "CMakeFiles/RO_Barter_Editor.dir/src/Config.cpp.o.d"
   "/media/tsuna/TsunaLinux/Proyects/RO-Barter-Editor/src/Cost.cpp" "CMakeFiles/RO_Barter_Editor.dir/src/Cost.cpp.o" "gcc" "CMakeFiles/RO_Barter_Editor.dir/src/Cost.cpp.o.d"
   "/media/tsuna/TsunaLinux/Proyects/RO-Barter-Editor/src/Database.cpp" "CMakeFiles/RO_Barter_Editor.dir/src/Database.cpp.o" "gcc" "CMakeFiles/RO_Barter_Editor.dir/src/Database.cpp.o.d"
   "/media/tsuna/TsunaLinux/Proyects/RO-Barter-Editor/src/Delay.cpp" "CMakeFiles/RO_Barter_Editor.dir/src/Delay.cpp.o" "gcc" "CMakeFiles/RO_Barter_Editor.dir/src/Delay.cpp.o.d"

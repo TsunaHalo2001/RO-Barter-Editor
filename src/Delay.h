@@ -5,7 +5,7 @@
 #ifndef RO_BARTER_EDITOR_DELAY_H
 #define RO_BARTER_EDITOR_DELAY_H
 
-#import "../config.h"
+#include "../config.h"
 
 class Delay {
     protected:

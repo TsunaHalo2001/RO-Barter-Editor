@@ -16,7 +16,6 @@
 #define SHOP "/media/tsuna/TsunaDomain/Joan0/Documents/Server/rAthena/rathena-tests/npc/custom/barters/cashshop.yml"
 #define DBEQUIP "/media/tsuna/TsunaDomain/Joan0/Documents/Server/rAthena/rathena-tests/db/re/item_db_equip.yml"
 #define DBUSABLE "/media/tsuna/TsunaDomain/Joan0/Documents/Server/rAthena/rathena-tests/db/re/item_db_usable.yml"
-#define DBETC "/media/tsuna/TsunaDomain/Joan0/Documents/Server/rAthena/rathena-tests/db/re/item_db_etc.yml"
 #endif
 
 #define INTNULL (-1)
@@ -49,5 +48,6 @@
 #include <string>
 #include <vector>
 #include <utility>
+#include <yaml-cpp/yaml.h>
 
 #endif //CONFIG_H

@@ -177,6 +177,30 @@ src/Category.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RO_Barter_Editor.dir/build.make CMakeFiles/RO_Barter_Editor.dir/src/Category.cpp.s
 .PHONY : src/Category.cpp.s
 
+src/Config.o: src/Config.cpp.o
+.PHONY : src/Config.o
+
+# target to build an object file
+src/Config.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RO_Barter_Editor.dir/build.make CMakeFiles/RO_Barter_Editor.dir/src/Config.cpp.o
+.PHONY : src/Config.cpp.o
+
+src/Config.i: src/Config.cpp.i
+.PHONY : src/Config.i
+
+# target to preprocess a source file
+src/Config.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RO_Barter_Editor.dir/build.make CMakeFiles/RO_Barter_Editor.dir/src/Config.cpp.i
+.PHONY : src/Config.cpp.i
+
+src/Config.s: src/Config.cpp.s
+.PHONY : src/Config.s
+
+# target to generate assembly for a file
+src/Config.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RO_Barter_Editor.dir/build.make CMakeFiles/RO_Barter_Editor.dir/src/Config.cpp.s
+.PHONY : src/Config.cpp.s
+
 src/Cost.o: src/Cost.cpp.o
 .PHONY : src/Cost.o
 
@@ -504,6 +528,9 @@ help:
 	@echo "... src/Category.o"
 	@echo "... src/Category.i"
 	@echo "... src/Category.s"
+	@echo "... src/Config.o"
+	@echo "... src/Config.i"
+	@echo "... src/Config.s"
 	@echo "... src/Cost.o"
 	@echo "... src/Cost.i"
 	@echo "... src/Cost.s"

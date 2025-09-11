@@ -2,7 +2,9 @@
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-int main() {
+int main()
+{
+    /*
     const Modelo modelo;
     const Vista vista;
 
@@ -11,6 +13,24 @@ int main() {
     while (controlador.getState() != -1) {
         controlador.tMode();
         controlador.keyEve();
+    }
+    */
+    try {
+        YAML::Node etc = YAML::LoadFile(DBETC);
+
+        std::string type = etc["Header"]["Type"].as<std::string>();
+        int version = etc["Header"]["Version"].as<int>();
+        printf("Type: %s - Version: %d\n", type.c_str(), version);
+
+        const YAML::Node& body = etc["Body"];
+        for (const auto & i : body) {
+            const YAML::Node& item = i;
+            const std::string id = item["AegisName"].as<std::string>();
+            printf("Id: %s\n", id.c_str());
+        }
+    }
+    catch (const std::exception &e) {
+        std::cerr << "An error occurred: " << e.what() << std::endl;
     }
 
     return 0;

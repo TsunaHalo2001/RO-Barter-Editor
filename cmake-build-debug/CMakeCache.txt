@@ -224,6 +224,9 @@ RO_Barter_Editor_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 RO_Barter_Editor_SOURCE_DIR:STATIC=/media/tsuna/TsunaLinux/Proyects/RO-Barter-Editor
 
+//The directory containing a CMake configuration file for yaml-cpp.
+yaml-cpp_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/yaml-cpp
+
 
 ########################
 # INTERNAL cache entries

@@ -11,46 +11,9 @@ Database::Database(std::string path) : path(std::move(path)) {
 Database::~Database() = default;
 
 void Database::loadDB() {
-    std::ifstream file(this->path, std::ios::in);
+    try {
 
-    if (!file.is_open()) {
-        std::cout << "File not found" << std::endl;
-        return;
     }
-
-    int itemId = INTNULL;
-    std::string itemAName = STRNULL;
-    std::string itemName = STRNULL;
-    std::string itemType = TYPEDEFAULT;
-    int itemWeight = WEIGHTDEFAULT;
-
-    std::string line;
-
-    while (getline(file, line)) {
-        std::stringstream token(line);
-
-        getline(token, line, ':');
-
-        if (line == "  Type") token >> this->type;
-        else if (line == "  Version") token >> this->version;
-        else if (line == "  - Id") token >> itemId;
-        else if (line == "    AegisName") token >> itemAName;
-        else if (line == "    Name") token >> itemName;
-        else if (line == "    Type") token >> itemType;
-        else if (line == "    Weight") {
-            token >> itemWeight;
-            if (itemId != INTNULL && itemAName != STRNULL && itemName != STRNULL && itemType != STRNULL && itemWeight != INTNULL) this->item.emplace_back(itemId, itemAName, itemName, itemType, itemWeight);
-            else std::cout << "Error: Item not properly designated" << std::endl;
-
-            itemId = INTNULL;
-            itemAName = STRNULL;
-            itemName = STRNULL;
-            itemType = TYPEDEFAULT;
-            itemWeight = WEIGHTDEFAULT;
-        }
-    }
-
-    file.close();
 }
 
 [[nodiscard]] std::string Database::getPath() const { return this->path; }

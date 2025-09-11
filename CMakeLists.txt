@@ -3,6 +3,8 @@ project(RO_Barter_Editor)
 
 set(CMAKE_CXX_STANDARD 20)
 
+find_package(yaml-cpp REQUIRED)
+
 add_executable(RO_Barter_Editor main.cpp
         src/Cost.cpp
         src/Cost.h
@@ -33,4 +35,8 @@ add_executable(RO_Barter_Editor main.cpp
         src/NoUse.h
         src/Trade.cpp
         src/Trade.h
+        src/Config.cpp
+        src/Config.h
 )
+
+target_link_libraries(RO_Barter_Editor yaml-cpp)

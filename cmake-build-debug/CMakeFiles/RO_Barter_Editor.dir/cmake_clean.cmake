@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/RO_Barter_Editor.dir/main.cpp.o.d"
   "CMakeFiles/RO_Barter_Editor.dir/src/Category.cpp.o"
   "CMakeFiles/RO_Barter_Editor.dir/src/Category.cpp.o.d"
+  "CMakeFiles/RO_Barter_Editor.dir/src/Config.cpp.o"
+  "CMakeFiles/RO_Barter_Editor.dir/src/Config.cpp.o.d"
   "CMakeFiles/RO_Barter_Editor.dir/src/Cost.cpp.o"
   "CMakeFiles/RO_Barter_Editor.dir/src/Cost.cpp.o.d"
   "CMakeFiles/RO_Barter_Editor.dir/src/Database.cpp.o"
