@@ -2,8 +2,8 @@
 // Created by tsuna on 4/03/25.
 //
 
-#ifndef COST_H
-#define COST_H
+#ifndef RO_BARTER_EDITOR_COST_H
+#define RO_BARTER_EDITOR_COST_H
 
 #include "../config.h"
 
@@ -17,13 +17,13 @@ class Cost {
         Cost(int, std::string, int);
         ~Cost();
 
-        [[nodiscard]] int getIndex() const;
-        std::string getItem();
-        [[nodiscard]] int getAmount() const;
+        int getIndex() const;
+        std::string getItem() const;
+        int getAmount() const;
 
-        void setIndex(int);
+        void setIndex(const int);
         void setItem(const std::string &);
-        void setAmount(int);
+        void setAmount(const int);
 };
 
-#endif //COST_H
+#endif //RO_BARTER_EDITOR_COST_H

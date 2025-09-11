@@ -21,15 +21,15 @@ class Modelo {
         Modelo();
         ~Modelo();
 
-        Shop &getShop();
-        std::vector<Database> &getDatabase();
-        [[nodiscard]] int getState() const;
+        Shop getShop() const;
+        std::vector<Database> getDatabase() const;
+        int getState() const;
         int getWarningFlag() const;
 
         void setShop(const Shop &);
         void setDatabase(const char *);
-        void setState(int);
-        void setWarningFlag(int);
+        void setState(const int);
+        void setWarningFlag(const int);
 
         void addCategory(const Category &);
 

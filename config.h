@@ -21,8 +21,13 @@
 
 #define INTNULL (-1)
 #define STRNULL "NULL"
+#define STRNONE "NONE"
 #define TYPEDEFAULT "Etc"
-#define WEIGHTDEFAULT 0
+#define SUBTYPEDEFAULT "0"
+#define INTDEFAULT 0
+#define OVERRIDEDEFAULT 100
+#define BOOLDEFAULT false
+#define INVENTORYDEFAULT true
 
 #define VISTACONSOLA "Consola"
 #define VISTAGUI "GUI"

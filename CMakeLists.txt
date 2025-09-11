@@ -22,4 +22,15 @@ add_executable(RO_Barter_Editor main.cpp
         src/MVC/Vista.cpp
         src/MVC/Vista.h
         src/MVC/Controlador.cpp
-        src/MVC/Controlador.h)
+        src/MVC/Controlador.h
+        src/Flag.cpp
+        src/Flag.h
+        src/Delay.cpp
+        src/Delay.h
+        src/Stack.cpp
+        src/Stack.h
+        src/NoUse.cpp
+        src/NoUse.h
+        src/Trade.cpp
+        src/Trade.h
+)

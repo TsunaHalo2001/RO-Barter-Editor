@@ -2,8 +2,8 @@
 // Created by tsuna on 4/03/25.
 //
 
-#ifndef CATEGORY_H
-#define CATEGORY_H
+#ifndef RO_BARTER_EDITOR_CATEGORY_H
+#define RO_BARTER_EDITOR_CATEGORY_H
 
 #include "../config.h"
 #include "Item.h"
@@ -17,8 +17,8 @@ class Category {
         explicit Category(std::string);
         ~Category();
 
-        std::string getName();
-        std::vector<Item> getItem();
+        std::string getName() const;
+        std::vector<Item> getItem() const;
 
         void setName(const std::string &);
         void setItem(const std::vector<Item> &);
@@ -28,4 +28,4 @@ class Category {
 
 
 
-#endif //CATEGORY_H
+#endif //RO_BARTER_EDITOR_CATEGORY_H

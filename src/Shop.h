@@ -2,8 +2,8 @@
 // Created by tsuna on 4/03/25.
 //
 
-#ifndef SHOP_H
-#define SHOP_H
+#ifndef RO_BARTER_EDITOR_SHOP_H
+#define RO_BARTER_EDITOR_SHOP_H
 
 #include "../config.h"
 #include "Category.h"
@@ -21,10 +21,10 @@ class Shop {
 
         void loadShop();
 
-        std::string getPath();
-        std::string getType();
-        std::string getVersion();
-        std::vector<Category> getCategory();
+        std::string getPath() const;
+        std::string getType() const;
+        std::string getVersion() const;
+        std::vector<Category> getCategory() const;
 
         void setPath(const std::string &);
         void setType(const std::string &);
@@ -41,4 +41,4 @@ class Shop {
 
 
 
-#endif //SHOP_H
+#endif //RO_BARTER_EDITOR_SHOP_H

@@ -13,37 +13,15 @@ Modelo::Modelo() : shop(Shop()), db(std::move(db)) {
 
 Modelo::~Modelo() = default;
 
-Shop &Modelo::getShop() {
-    return this->shop;
-}
+[[nodiscard]] Shop Modelo::getShop() const { return this->shop; }
+[[nodiscard]] std::vector<Database> Modelo::getDatabase() const { return this->db; }
+[[nodiscard]] int Modelo::getState() const { return this->state; }
+[[nodiscard]] int Modelo::getWarningFlag() const { return this->warningFlag; }
 
-std::vector<Database> &Modelo::getDatabase() {
-    return this->db;
-}
-
-int Modelo::getState() const {
-    return this->state;
-}
-
-int Modelo::getWarningFlag() const {
-    return this->warningFlag;
-}
-
-void Modelo::setShop(const Shop &pShop) {
-    this->shop = pShop;
-}
-
-void Modelo::setDatabase(const char *pDatabase) {
-    this->db.emplace_back(pDatabase);
-}
-
-void Modelo::setState(const int pState) {
-    this->state = pState;
-}
-
-void Modelo::setWarningFlag(const int pWarningFlag) {
-    this->warningFlag = pWarningFlag;
-}
+void Modelo::setShop(const Shop &pShop) { this->shop = pShop; }
+void Modelo::setDatabase(const char *pDatabase) { this->db.emplace_back(pDatabase); }
+void Modelo::setState(const int pState) { this->state = pState; }
+void Modelo::setWarningFlag(const int pWarningFlag) { this->warningFlag = pWarningFlag; }
 
 void Modelo::addCategory(const Category &pCategory) {
     this->shop.addCategory(pCategory);

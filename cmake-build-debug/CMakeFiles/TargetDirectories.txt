@@ -1,3 +1,3 @@
-/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles/RO_Barter_Editor.dir
-/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles/edit_cache.dir
-/media/tsuna/TsunaDomain/Joan0/Documents/Server/Barter Editor/RO-Barter-Editor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/tsuna/TsunaLinux/Proyects/RO-Barter-Editor/cmake-build-debug/CMakeFiles/RO_Barter_Editor.dir
+/media/tsuna/TsunaLinux/Proyects/RO-Barter-Editor/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/tsuna/TsunaLinux/Proyects/RO-Barter-Editor/cmake-build-debug/CMakeFiles/rebuild_cache.dir

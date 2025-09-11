@@ -13,26 +13,10 @@ Cost::Cost(const int index,
 
 Cost::~Cost() = default;
 
-int Cost::getIndex() const {
-    return this->index;
-}
+[[nodiscard]] int Cost::getIndex() const { return this->index; }
+[[nodiscard]] std::string Cost::getItem() const { return this->item; }
+[[nodiscard]] int Cost::getAmount() const { return this->amount; }
 
-std::string Cost::getItem() {
-    return this->item;
-}
-
-int Cost::getAmount() const {
-    return this->amount;
-}
-
-void Cost::setIndex(const int pIndex) {
-    this->index = pIndex;
-}
-
-void Cost::setItem(const std::string &pItem) {
-    this->item = pItem;
-}
-
-void Cost::setAmount(const int pAmount) {
-    this->amount = pAmount;
-}
+void Cost::setIndex(const int pIndex) { this->index = pIndex; }
+void Cost::setItem(const std::string &pItem) { this->item = pItem; }
+void Cost::setAmount(const int pAmount) { this->amount = pAmount; }

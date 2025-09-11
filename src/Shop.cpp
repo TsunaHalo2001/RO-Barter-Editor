@@ -70,37 +70,15 @@ void Shop::loadShop() {
     file.close();
 }
 
-std::string Shop::getPath() {
-    return this->path;
-}
+[[nodiscard]] std::string Shop::getPath() const { return this->path; }
+[[nodiscard]] std::string Shop::getType() const { return this->type; }
+[[nodiscard]] std::string Shop::getVersion() const { return this->version; }
+[[nodiscard]] std::vector<Category> Shop::getCategory() const { return this->category; }
 
-std::string Shop::getType() {
-    return this->type;
-}
-
-std::string Shop::getVersion() {
-    return this->version;
-}
-
-std::vector<Category> Shop::getCategory() {
-    return this->category;
-}
-
-void Shop::setPath(const std::string &pPath) {
-    this->path = pPath;
-}
-
-void Shop::setType(const std::string &pType) {
-    this->type = pType;
-}
-
-void Shop::setVersion(const std::string &pVersion) {
-    this->version = pVersion;
-}
-
-void Shop::setCategory(const std::vector<Category> &pCategory) {
-    this->category = pCategory;
-}
+void Shop::setPath(const std::string &pPath) { this->path = pPath; }
+void Shop::setType(const std::string &pType) { this->type = pType; }
+void Shop::setVersion(const std::string &pVersion) { this->version = pVersion; }
+void Shop::setCategory(const std::vector<Category> &pCategory) { this->category = pCategory; }
 
 void Shop::addCategory(const Category& pCategory) {
     this->category.emplace_back(pCategory);

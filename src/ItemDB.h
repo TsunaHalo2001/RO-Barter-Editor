@@ -2,33 +2,192 @@
 // Created by tsuna on 5/03/25.
 //
 
-#ifndef ITEMDB_H
-#define ITEMDB_H
+#ifndef RO_BARTER_EDITOR_ITEMDB_H
+#define RO_BARTER_EDITOR_ITEMDB_H
 
-#include "../config.h"
+#include "Flag.h"
+#include "Delay.h"
+#include "Stack.h"
+#include "NoUse.h"
+
+/*
+# - Id                      Item ID.
+#   AegisName               Server name to reference the item in scripts and lookups, should use no spaces.
+#   Name                    Name in English for displaying as output.
+#   Type                    Item type. (Default: Etc)
+#   SubType                 Weapon, Ammo or Card type. (Default: 0)
+#   Buy                     Buying price. When not specified, becomes double the sell price. (Default: 0)
+#   Sell                    Selling price. When not specified, becomes half the buy price. (Default: 0)
+#   Weight                  Item weight. Each 10 is 1 weight. (Default: 0)
+#   Attack                  Weapon's attack. (Default: 0)
+#   MagicAttack             Weapon's magic attack. (Default: 0)
+#   Defense                 Armor's defense. (Default: 0)
+#   Range                   Weapon's attack range. (Default: 0)
+#   Slots                   Available slots in item. (Default: 0)
+#   Jobs                    Jobs that can equip the item. (Map default is 'All: true')
+#   Classes                 Upper class types that can equip the item. (Map default is 'All: true')
+#   Gender                  Gender that can equip the item. (Default: Both)
+#   Locations               Equipment's placement. (Default: None)
+#   WeaponLevel             Weapon level. (Default: 1 for Weapons)
+#   ArmorLevel              Armor level. (Default: 1 for Armors)
+#   EquipLevelMin           Minimum required level to equip. (Default: 0)
+#   EquipLevelMax           Maximum level that can equip. (Default: 0)
+#   Refineable              If the item can be refined. (Default: false)
+#   Gradable                If the item can be graded. (Default: false)
+#   View                    View sprite of an item. (Default: 0)
+#   AliasName               Another item's AegisName that will be sent to the client instead of this item's AegisName. (Default: null)
+#   Flags:                  Item flags. (Default: null)
+#     BuyingStore           If the item is available for Buyingstores. (Default: false)
+#     DeadBranch            If the item is a Dead Branch. (Default: false)
+#     Container             If the item is part of a container. (Default: false)
+#     UniqueId              If the item is a unique stack. (Default: false)
+#     BindOnEquip           If the item is bound to the character upon equipping. (Default: false)
+#     DropAnnounce          If the item has a special announcement to self on drop. (Default: false)
+#     NoConsume             If the item is consumed on use. (Default: false)
+#     DropEffect            If the item has a special effect on the ground when dropped by a monster. (Default: None)
+#   Delay:                  Item use delay. (Default: null)
+#     Duration              Duration of delay in seconds.
+#     Status                Status Change used to track delay. (Default: None)
+#   Stack:                  Item stack amount. (Default: null)
+#     Amount                Maximum amount that can be stacked.
+#     Inventory             If the stack is applied to player's inventory. (Default: true)
+#     Cart                  If the stack is applied to the player's cart. (Default: false)
+#     Storage               If the stack is applied to the player's storage. (Default: false)
+#     GuildStorage          If the stack is applied to the player's guild storage. (Default: false)
+#   NoUse:                  Conditions when the item is unusable. (Default: null)
+#     Override              Group level to override these conditions. (Default: 100)
+#     Sitting               If the item can not be used while sitting. (Default: false)
+#   Trade:                  Trade restrictions. (Default: null)
+#     Override              Group level to override these conditions. (Default: 100)
+#     NoDrop                If the item can not be dropped. (Default: false)
+#     NoTrade               If the item can not be traded. (Default: false)
+#     TradePartner          If the item can not be traded to the player's partner. (Default: false)
+#     NoSell                If the item can not be sold. (Default: false)
+#     NoCart                If the item can not be put in a cart. (Default: false)
+#     NoStorage             If the item can not be put in a storage. (Default: false)
+#     NoGuildStorage        If the item can not be put in a guild storage. (Default: false)
+#     NoMail                If the item can not be put in a mail. (Default: false)
+#     NoAuction             If the item can not be put in an auction. (Default: false)
+#   Script                  Script to execute when the item is used/equipped. (Default: null)
+#   EquipScript             Script to execute when the item is equipped. (Default: null)
+#   UnEquipScript           Script to execute when the item is unequipped or when a rental item expires. (Default: null)
+ */
 
 class ItemDB {
     protected:
         int id;
-        std::string aName;
+        std::string aegisName;
         std::string name;
         std::string type;
+        std::string subType;
+        int buy;
+        int sell;
         int weight;
+        int attack;
+        int magicAttack;
+        int defense;
+        int range;
+        int slots;
+        int weaponLevel;
+        int armorLevel;
+        int equipLevelMin;
+        int equipLevelMax;
+        bool refineable;
+        bool gradeable;
+        int view;
+        Flag flags;
+        Delay delay;
+        Stack stack;
+        NoUse noUse;
+        std::string script;
+        std::string equipScript;
+        std::string unEquipScript;
+
     public:
-        ItemDB(int, std::string , std::string , std::string , int);
+        ItemDB(int,
+               std::string,
+               std::string,
+               std::string,
+               std::string,
+               int,
+               int,
+               int,
+               int,
+               int,
+               int,
+               int,
+               int,
+               int,
+               int,
+               int,
+               int,
+               bool,
+               bool,
+               int,
+               Flag,
+               Delay,
+               Stack,
+               NoUse,
+               std::string,
+               std::string,
+               std::string);
         ~ItemDB();
 
         int getId() const;
-        std::string getAName();
-        std::string getName();
-        std::string getType();
+        std::string getAegisName() const;
+        std::string getName() const;
+        std::string getType() const;
+        std::string getSubType() const;
+        int getBuy() const;
+        int getSell() const;
         int getWeight() const;
+        int getAttack() const;
+        int getMagicAttack() const;
+        int getDefense() const;
+        int getRange() const;
+        int getSlots() const;
+        int getWeaponLevel() const;
+        int getArmorLevel() const;
+        int getEquipLevelMin() const;
+        int getEquipLevelMax() const;
+        bool getRefineable() const;
+        bool getGradeable() const;
+        int getView() const;
+        Flag getFlag() const;
+        Delay getDelay() const;
+        Stack getStack() const;
+        NoUse getNoUse() const;
+        std::string getScript() const;
+        std::string getEquipScript() const;
+        std::string getUnEquipScript() const;
 
         void setId(int);
-        void setAName(std::string);
-        void setName(std::string);
-        void setType(const std::string &);
+        void setAegisName(const std::string&);
+        void setName(const std::string&);
+        void setType(const std::string&);
+        void setSubType(const std::string&);
+        void setBuy(int);
+        void setSell(int);
         void setWeight(int);
+        void setAttack(int);
+        void setMagicAttack(int);
+        void setDefense(int);
+        void setRange(int);
+        void setSlots(int);
+        void setWeaponLevel(int);
+        void setArmorLevel(int);
+        void setEquipLevelMin(int);
+        void setEquipLevelMax(int);
+        void setRefineable(bool);
+        void setGradeable(bool);
+        void setView(int);
+        void setFlags(const Flag&);
+        void setDelay(const Delay&);
+        void setStack(const Stack&);
+        void setNoUse(const NoUse&);
+        void setScript(const std::string&);
+        void setEquipScript(const std::string&);
+        void setUnEquipScript(const std::string&);
 };
 
-#endif //ITEMDB_H
+#endif //RO_BARTER_EDITOR_ITEMDB_H

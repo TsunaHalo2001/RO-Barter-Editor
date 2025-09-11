@@ -53,37 +53,15 @@ void Database::loadDB() {
     file.close();
 }
 
-std::string Database::getPath() {
-    return this->path;
-}
+[[nodiscard]] std::string Database::getPath() const { return this->path; }
+[[nodiscard]] std::string Database::getType() const { return this->type; }
+[[nodiscard]] std::string Database::getVersion() const { return this->version; }
+[[nodiscard]] std::vector<ItemDB> Database::getItem() const { return this->item; }
 
-std::string Database::getType() {
-    return this->type;
-}
-
-std::string Database::getVersion() {
-    return this->version;
-}
-
-std::vector<ItemDB> Database::getItem() {
-    return this->item;
-}
-
-void Database::setPath(const std::string &pPath) {
-    this->path = pPath;
-}
-
-void Database::setType(const std::string &pType) {
-    this->type = pType;
-}
-
-void Database::setVersion(const std::string &pVersion) {
-    this->version = pVersion;
-}
-
-void Database::setItem(const std::vector<ItemDB> &pItem) {
-    this->item = pItem;
-}
+void Database::setPath(const std::string &pPath) { this->path = pPath; }
+void Database::setType(const std::string &pType) { this->type = pType; }
+void Database::setVersion(const std::string &pVersion) { this->version = pVersion; }
+void Database::setItem(const std::vector<ItemDB> &pItem) { this->item = pItem; }
 
 // ReSharper disable once CppMemberFunctionMayBeConst
 bool Database::isItemOnDB(ItemDB &pItem) {

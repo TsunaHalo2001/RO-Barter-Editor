@@ -2,8 +2,8 @@
 // Created by tsuna on 4/03/25.
 //
 
-#ifndef ITEM_H
-#define ITEM_H
+#ifndef RO_BARTER_EDITOR_ITEM_H
+#define RO_BARTER_EDITOR_ITEM_H
 
 #include "../config.h"
 #include "Cost.h"
@@ -18,11 +18,11 @@ class Item {
         Item(int, std::string);
         ~Item();
 
-        [[nodiscard]] int getIndex() const;
-        std::string getItem();
-        std::vector<Cost> getCost();
+        int getIndex() const;
+        std::string getItem() const;
+        std::vector<Cost> getCost() const;
 
-        void setIndex(int);
+        void setIndex(const int);
         void setItem(const std::string &);
         void setCost(const std::vector<Cost> &);
 
@@ -31,4 +31,4 @@ class Item {
 
 
 
-#endif //ITEM_H
+#endif //RO_BARTER_EDITOR_ITEM_H
